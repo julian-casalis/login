@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JyR</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="todo">
+<!--  NAVEGACION -->
+    <header class="header-nav">
+        
+        <h2 class="logo"> Logo</h2>
+            <nav class="navegation">
+              <!-- <a href="#">Home</a>
+                <a href="#">Abaut</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>-->
+                <button class="btnlogin">Login</button>
+            </nav>
+   
+   
+        </header>
+
+           <!--  CAJA TRACERA 
+           <div class="caja">
+            <div class="caja-login">
+            <h3> ¿Ya tienes una cuenta?</h3>
+            <p>iniciar sesion</p>
+            <button id="btn_login">inciar sesion</button>
+            </div>
+
+            <div class="caja-register">
+                <h3> ¿Aun no tienes una cuenta?</h3>
+                <p>Registrate </p>
+                <button id="btn_register">Registrarse</button>
+                </div>
+
+        </div>-->
+
+<!--  LOGO CLOSE -->
+    <div class="wraper">
+
+    <span class="icon-close">
+            <i class="bi bi-x"></i>
+      </span>
+
+      <!-- DIVICION LOGING -->
+        <div class="login">
+        <h1>Login</h1>
+        <form action="#">
+            <!--  USUARIO -->
+            <div class="input-box">
+                <input type="mail" placeholder="Mail" 
+                required>    <i class="bi bi-envelope"></i>
+            </div>
+        <!--  CONTRAEÑA -->
+        <div class="input-box">
+            <input type="password" 
+            placeholder="Contraseña" required>  <i class="bi bi-lock"></i>
+          
+        </div>
+        <!--  RECORDAR CONTRASEÑA -->
+        <div class="remember-forgot">
+            <label> <input type="checkbox"> Recordarla </label>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+        <!--  BTN LOGIN-->
+        <button type="submit" class="btn">
+            Login
+        </button>
+
+        <div class="register-link">
+            <p>  ¿Ya tienes una cuenta? 
+                <a href="#"> Registrate</a>
+            </p>
+
+        </div>
+    </form>
+    </div>
+
+        <!-- DIVISION REGISTRO -->
+    <div class="register">
+        <h1> Register</h1>
+        <!--  NUSUARIO -->
+        <div class="input-box">
+            <input type="text" placeholder="Usuario" 
+            required>    <i class="bi bi-person"></i>
+        </div>
+        <!--  MAIL -->
+        <div class="input-box">
+            <input type="mail" placeholder="Mail" 
+            required>    <i class="bi bi-envelope"></i>
+        </div>
+        <!--  CONTRASEÑA -->
+        <div class="input-box">
+            <input type="password" 
+            placeholder="Contraseña" required>  <i class="bi bi-lock"></i>
+          
+        </div>
+        <!--  ACEPTACION DE LOS TERMINOS -->
+        <div class="remember-forgot">
+            <label> <input type="checkbox"> 
+            Acepto los terminos y condiciones de uso
+            </label>
+        </div>
+        <button type="submit" class="btn">
+            Login
+        </button>
+
+        <div class="login-link">
+            <p>
+                ¿No tienes una cuenta? 
+                <a href="#"> login</a>
+            </p>
+
+        </div>
+    </div>
+
+    </div>
+    
+<script src="register.js"> </script>
+</body>
+
